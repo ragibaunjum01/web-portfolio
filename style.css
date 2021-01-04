@@ -5,6 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    color: rgb(192, 104, 72);
+}
+.h2-expi{
+    margin: 2%;
+    padding: 2%;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
 .name-highlight{
     color: coral;
 }
@@ -23,4 +37,38 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-expi{
+    box-shadow: 10px 10px 30px gray;
+    height: 60%; 
+    background-color: white;
+}
+.expi-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#noob-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
